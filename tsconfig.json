@@ -2,9 +2,9 @@
     "compilerOptions": {
         "module": "commonjs",
         "declaration": true,
-        "outDir": "lib/"
+        "outDir": "dist/"
     },
     "files": [
-        "./src/meteor_app.ts"
+        "./meteor_app.ts"
     ]
 }

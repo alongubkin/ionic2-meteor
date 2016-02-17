@@ -2,7 +2,7 @@
   "name": "ionic2-meteor",
   "version": "0.0.3",
   "description": "Use meteor in ionic2 applications unsing angular2",
-  "main": "dist/meteor_app.js",
+  "main": "dist/meteor_app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,5 +31,9 @@
     "imports-loader": "^0.6.5",
     "reflect-metadata": "^0.1.2",
     "rxjs": "^5.0.0-beta.0"
-  }
+  },
+  "typings": "dist/meteor_app",
+  "files": [
+    "dist/"
+  ]
 }
